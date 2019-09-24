@@ -5,3 +5,8 @@ This is just a simple reference circuit for a 32-pin STM32G031 microcontroller. 
 Note: I'm still waiting on these boards to arrive, so this design is still untested. I'll update this with more information and a proper readme in a couple of weeks once I've verified that things work. I'll also upload gerber files in addition to the KiCAD-specific files at that time.
 
 Sorry for the inconvenience, in the meantime!
+
+# Board Renders:
+
+![Board Top](renders/render_top.png)
+![Board Bottom](renders/render_bot.png)
