@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:STM32G031Kx_bb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -254,7 +253,7 @@ Connection ~ 3350 2550
 Wire Wire Line
 	3100 3050 3100 3150
 Wire Wire Line
-	3100 3150 4000 3150
+	3100 3150 3500 3150
 Wire Wire Line
 	3100 2850 3100 2450
 Connection ~ 3100 2450
@@ -650,4 +649,20 @@ Wire Notes Line
 	8950 2200 7700 2200
 Text Notes 8700 4250 2    50   ~ 0
 Breadboard connectors
+$Comp
+L power:VDD #PWR?
+U 1 1 5D9AAA2A
+P 3500 3200
+F 0 "#PWR?" H 3500 3050 50  0001 C CNN
+F 1 "VDD" V 3550 3250 50  0000 C CNN
+F 2 "" H 3500 3200 50  0001 C CNN
+F 3 "" H 3500 3200 50  0001 C CNN
+	1    3500 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 3200 3500 3150
+Connection ~ 3500 3150
+Wire Wire Line
+	3500 3150 4000 3150
 $EndSCHEMATC
